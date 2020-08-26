@@ -6,7 +6,7 @@ import java.util.*;
 import javax.imageio.*;
 import java.io.*;
 
-public class Tag
+public class Personal
 { static Console c;
   public static void main(String[] args)
     
