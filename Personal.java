@@ -1,5 +1,4 @@
 //Richa Dalal
-
 import hsa.Console;
 import java.awt.*;
 import java.util.*;
@@ -10,17 +9,14 @@ public class Personal
 { static Console c;
   public static void main(String[] args)
     
-    
     String name; 
     String address;
     String city; 
     String postal;
     String country;
     
-    
-  { c = new Console();
-
-    
+  { 
+    c = new Console();
     
     while (true)
     {
@@ -39,10 +35,6 @@ public class Personal
     }
   }
 
-
-           
-
-      
       public static void printLabels()
       {
         c.println("Name" + name);
