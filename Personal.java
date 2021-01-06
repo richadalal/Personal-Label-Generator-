@@ -26,13 +26,11 @@ public static void main(String[] args)
       postal = sc.nextLine();
       System.out.println("Country:");
       country = sc.nextLine();
-        System.out.println("Name: " + name);
-        System.out.println("Address: " + address);
-        System.out.println("City: " + city);
-        System.out.println("Postal Code: " + postal);
-        System.out.println("Country: " + country);
+      System.out.println("Name: " + name);
+      System.out.println("Address: " + address);
+      System.out.println("City: " + city);
+      System.out.println("Postal Code: " + postal);
+      System.out.println("Country: " + country);
     }
 }
 }
-
-  
