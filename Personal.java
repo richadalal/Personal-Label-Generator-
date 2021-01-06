@@ -1,48 +1,38 @@
-//Richa Dalal
-import hsa.Console;
-import java.awt.*;
-import java.util.*;
-import javax.imageio.*;
-import java.io.*;
+// Richa Dalal 
 
-public class Personal
-{ static Console c;
-  public static void main(String[] args)
-    
+import java.util.Scanner;
+
+public class Main
+{ 
+public static void main(String[] args)   
+
+  { 
+    Scanner sc= new Scanner(System.in);
     String name; 
     String address;
     String city; 
     String postal;
     String country;
-    
-  { 
-    c = new Console();
-    
     while (true)
     {
-      c.println("Please fill in some important information below");
-      c.println("Name:");
-      name = c.readLine();
-      c.println("Address:");
-      address = c.readLine();
-      c.println("City:");
-      city = c.readLine();
-      c.println("Postal Code:");
-      postal = c.readLine();
-      c.println("Country:");
-      country = c.readLine();
-      printLabels();
+      System.out.println("Please fill in some important information below");
+      System.out.println("Name:");
+      name = sc.nextLine();
+      System.out.println("Address:");
+      address = sc.nextLine();
+      System.out.println("City:");
+      city = sc.nextLine();
+      System.out.println("Postal Code:");
+      postal = sc.nextLine();
+      System.out.println("Country:");
+      country = sc.nextLine();
+        System.out.println("Name: " + name);
+        System.out.println("Address: " + address);
+        System.out.println("City: " + city);
+        System.out.println("Postal Code: " + postal);
+        System.out.println("Country: " + country);
     }
-  }
-
-      public static void printLabels()
-      {
-        c.println("Name" + name);
-        c.println("Address" + address);
-        c.println("City" + city);
-        c.println("Postal Code" + postal);
-        c.println("Country" + country);
-    }
+}
 }
 
   
